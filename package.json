@@ -1,0 +1,44 @@
+{
+  "name": "typed-locale-keys",
+  "version": "3.0.0",
+  "description": "Generates typed object to provide translations",
+  "main": "index.js",
+  "author": {
+    "name": "Tit Kovalenko",
+    "email": "t.a.kvlnk@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@tkvlnk/configs": "git+https://github.com/tkvlnk/configs.git#2.1.8",
+    "@types/jest": "^27.0.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.1.1",
+    "prettier": "^2.4.0",
+    "ts-jest": "^27.0.5",
+    "ts-morph": "^12.0.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "simple-git-hooks": "^2.6.1"
+  },
+  "keywords": [
+    "i18n",
+    "JSON",
+    "keys",
+    "locale",
+    "typescript"
+  ],
+  "homepage": "https://github.com/wix-incubator/typed-locale-keys#readme",
+  "bugs": {
+    "url": "https://github.com/wix-incubator/typed-locale-keys/issues"
+  },
+  "publishConfig": {
+    "versionBumpStrategy": "patch",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
